@@ -41,11 +41,13 @@ Buffers are general purpose objects that just carry data. You cannot access them
 i8View[0] = 42;
 console.log(i8View); // Returns [42, 0, 0]
 ```
+
 Note: Typed arrays do not have some of the methods traditional arrays have such as .pop() or .push(). Typed arrays also fail Array.isArray() that checks if something is an array. Although simpler, this can be an advantage for less-sophisticated JavaScript engines to implement them.
 
 ## Coding challenge
+
 Working in the typed-array.js file, modify the existing code to create a const buffer that is 64-bytes. Then create a Int32Array typed array with a view of it called i32View.
 
-## Outcome
-You'll know you've successed if you run the tests and see them all pass.
+## Real world uses
 
+Xxx.

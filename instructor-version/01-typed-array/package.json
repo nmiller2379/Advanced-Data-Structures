@@ -1,0 +1,19 @@
+{
+  "name": "01-typed-array",
+  "version": "1.0.0",
+  "description": "",
+  "main": "typed-array.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}

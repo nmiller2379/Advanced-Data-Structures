@@ -1,5 +1,6 @@
 const { expect } = require("chai");
-const PriorityQueue = require("../student.js"); // Assuming PriorityQueue class is defined in a separate file
+const PriorityQueue = require("../priority-queue.js"); // Assuming PriorityQueue class is defined in a separate file
+// const PriorityQueue = require("../student.js");
 
 describe("PriorityQueue", () => {
   let queue;

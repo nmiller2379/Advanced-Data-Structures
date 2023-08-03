@@ -15,8 +15,8 @@ class Stack {
 
   peek(e) {
     this.collection.filter((a, b) => a > b)
-    return this.collection.peek(e)
-    // return this.collection.push()
+    // return this.collection.peek(e)
+    return this.collection.pop(e)
   }
 
   isEmpty(){
@@ -28,7 +28,7 @@ class Stack {
   }
 
   clear() {
-   
+    this.collection = []
   }
 
   print() {

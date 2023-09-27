@@ -7,6 +7,8 @@ If our list is empty, adding an element to our linked list is straightforward en
 
 But what if our list already has one or more members? How do we add an element to the list? Recall that each node in a linked list has a next property. To add a node to the list, find the last node in the list, and point that last node's next property at our new node. (Hint: you know you've reached the end of a linked list when a node's next property is null.)
 
+## Coding Challenge
+
 Write an add method that assigns the first node you push to the linked list to the head; after that, whenever adding a node, every node should be referenced by the previous node's next property.
 
 ### Note

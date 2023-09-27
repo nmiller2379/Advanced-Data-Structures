@@ -1,3 +1,4 @@
+// LinkedList.js
 class Node {
   constructor(data) {
     this.data = data;
@@ -12,29 +13,18 @@ class LinkedList {
   }
 
   add(data) {
+    //   Your code goes here
     const newNode = new Node(data);
-    if (!this.head) {
+    if (this.head === null) {
       this.head = newNode;
     } else {
       let current = this.head;
-      while (current.next) {
+      while (current.next !== null) {
         current = current.next;
       }
       current.next = newNode;
     }
     this.size++;
-  }
-
-  remove(data) {
-    //   Your code goes here
-    if (!this.head) {
-      return;
-    }
-    if (this.head.data === data) {
-      this.head = this.head.next;
-      this.size--;
-      return;
-    }
   }
 }
 

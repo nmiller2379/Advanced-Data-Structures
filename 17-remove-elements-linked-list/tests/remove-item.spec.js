@@ -1,4 +1,3 @@
-// test.js
 const chai = require('chai');
 const LinkedList = require('../remove-item');
 

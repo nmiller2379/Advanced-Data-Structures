@@ -7,4 +7,5 @@ This might sound really confusing, so let's return to the conga line example so 
 
 If the element we wish to remove is the head element, we reassign the head to the second node of the linked list.
 
+## Coding Challenge
 Write a remove method that takes an element and removes it from the linked list.

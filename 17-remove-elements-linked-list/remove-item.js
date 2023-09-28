@@ -27,14 +27,6 @@ class LinkedList {
 
   remove(data) {
     //   Your code goes here
-    if (!this.head) {
-      return;
-    }
-    if (this.head.data === data) {
-      this.head = this.head.next;
-      this.size--;
-      return;
-    }
   }
 }
 

@@ -18,4 +18,9 @@ Puppy.next = Cat;
 Cat.next = Dog;
 
 // DO NOT CHANGE THE CODE BELOW THIS LINE
-module.exports = Node;
+module.exports = {
+  Kitten,
+  Puppy,
+  Cat,
+  Dog,
+};

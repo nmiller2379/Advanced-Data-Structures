@@ -12,6 +12,10 @@ Kitten.next = Puppy;
 
 // only add code below this line
 
-
 // DO NOT CHANGE THE CODE BELOW THIS LINE
-module.exports = Node;
+module.exports = {
+  Kitten,
+  Puppy,
+  Cat,
+  Dog,
+};

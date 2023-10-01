@@ -106,12 +106,5 @@ class LinkedList {
   }
 }
 
-const myList = new LinkedList();
-myList.add("Node 1");
-myList.add("Node 2");
-myList.add("Node 3");
-
-console.log(myList.removeAt(1));
-
 // DO NOT CHANGE THE CODE BELOW THIS LINE
 module.exports = LinkedList;

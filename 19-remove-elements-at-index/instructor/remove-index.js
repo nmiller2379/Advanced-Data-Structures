@@ -78,7 +78,31 @@ class LinkedList {
   }
 
   removeAt(index) {
-    // YOUR CODE HERE
+    if (index < 0 || index >= this.size) {
+      return null; // Index out of bounds
+    }
+
+    if (index === 0) {
+      const removedNode = this.head;
+      this.head = this.head.next;
+      this.size--;
+      return removedNode;
+    }
+
+    let current = this.head;
+    let currentIndex = 0;
+    let prevNode = null;
+
+    while (currentIndex < index) {
+      prevNode = current;
+      current = current.next;
+      currentIndex++;
+    }
+
+    const removedNode = current;
+    prevNode.next = current.next;
+    this.size--;
+    return removedNode;
   }
 }
 

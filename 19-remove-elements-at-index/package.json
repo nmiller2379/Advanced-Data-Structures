@@ -1,0 +1,19 @@
+{
+  "name": "19-remove-elements-at-index",
+  "version": "1.0.0",
+  "description": "",
+  "main": "remove-index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "21-doubly-linked-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "doubly-linked.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0"
+  }
+}

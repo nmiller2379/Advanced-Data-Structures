@@ -9,3 +9,5 @@ This allows us to traverse the list in both directions but it also requires more
 We've provided a Node class and started our DoublyLinkedList. Let's add two methods to our doubly linked list called 'add' and 'remove'. The 'add' method should add the given element to the list while the 'remove' method should remove all occurrences of a given element in the list.
 
 Be careful to handle any possible edge cases when writing these methods, such as deletions for the first or last element. Also, removing any item on an empty list should return null.
+
+Note: Remember to keep track of the size of your doubly linked list.

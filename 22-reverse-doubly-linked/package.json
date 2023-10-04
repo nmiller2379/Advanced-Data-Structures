@@ -1,0 +1,16 @@
+{
+  "name": "22-reverse-doubly-linked",
+  "version": "1.0.0",
+  "description": "",
+  "main": "reverse.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0"
+  }
+}

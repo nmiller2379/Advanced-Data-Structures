@@ -2,8 +2,6 @@ const { expect } = require("chai");
 const { BinarySearchTree } = require("../depth");
 const { Node } = require("../depth");
 
-console.log(BinarySearchTree);
-
 describe("BinarySearchTree", () => {
   it('should have methods named "inOrder", "preOrder", and "postOrder"', () => {
     const bst = new BinarySearchTree();

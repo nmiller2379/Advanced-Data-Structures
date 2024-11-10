@@ -69,7 +69,42 @@ class BinarySearchTree {
       }
     }
 
-    // Case 2: Target has one child --- This is the part you need to implement
+    // Case 2: Target has one child
+    if (children === 1) {
+      const child = target.left !== null ? target.left : target.right; // Get the single child
+
+      if (target === this.root) {
+        this.root = child; // If the target is the root, set the root to the child
+      } else {
+        if (parent.left === target) {
+          parent.left = child; // Replace the target node with its child
+        } else {
+          parent.right = child;
+        }
+      }
+    }
+
+    // Case 3: Target has two children
+    if (children === 2) {
+      let successorParent = target;
+      let successor = target.right;
+
+      // Find the in-order successor (smallest value in the right subtree)
+      while (successor.left !== null) {
+        successorParent = successor;
+        successor = successor.left;
+      }
+
+      // Replace the target value with the successor value
+      target.value = successor.value;
+
+      // Remove the successor node from the tree
+      if (successorParent.left === successor) {
+        successorParent.left = successor.right;
+      } else {
+        successorParent.right = successor.right;
+      }
+    }
   }
 }
 
